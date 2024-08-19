@@ -3,3 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-left: 60px;
+    font-size: 24px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.one {
+    height: 20%;
+    background-color: #1F2937;
+}
