@@ -106,7 +106,27 @@ body {
 
 .three {
 
-    height: 50vh;
+    height: 40vh;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    color: #1F2937;
+    width: 65%;
+    margin-left: 500px;
+}
+
+.author {
+    margin-left: 70%;
+    font-size: 34px;
+    font-weight: 700;
 
 }
 
