@@ -37,8 +37,9 @@ body {
 
 .navigation a {
     text-decoration: none;
-    font-size: 18px;
-    color: #22223b;
+    font-size: 23px;
+    font-weight: 750;
+    color: #081c15;
 
 }
 
@@ -78,9 +79,30 @@ body {
     display: flex;
     border-radius: 10px;
     justify-content: center;
+    gap: 30px;
 
 
 
+}
+
+.box1img {
+    width: 100%;
+    height: 100%;
+}
+
+.box2img {
+    width: 100%;
+    height: 100%;
+}
+
+.box3img {
+    width: 100%;
+    height: 100%;
+}
+
+.box4img {
+    width: 100%;
+    height: 100%;
 }
 
 .box {
@@ -95,8 +117,8 @@ body {
     border: 4px solid #3882F6;
     border-radius: 10px;
     margin-bottom: 10px;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 190px;
 
 
 
@@ -105,12 +127,15 @@ body {
 
 .innertext {
     width: 75%;
+    font-weight: 900;
+    font-size: 19px;
+    color: #081c15;
 }
 
 .three {
 
     height: 40vh;
-    background-color: #E5E7EB;
+    background-color: #f4f1de;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,6 +227,7 @@ h1 {
     display: flex;
     flex-direction: row;
 
+
 }
 
 .sbtn {
@@ -225,7 +251,7 @@ h1 {
     color: white;
     margin-top: 40px;
     margin-left: 80px;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
