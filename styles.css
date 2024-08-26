@@ -56,11 +56,41 @@ body {
 .two {
     height: 50vh;
 
+
 }
 
 .two .SRI {
     text-align: center;
     margin-top: 50px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.two .boxes {
+    display: flex;
+    height: 50vh;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.two .boxes .box2 {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxabove {
+    color: red;
+    margin: 50px;
+
+}
+
+.innertext {
+    width: 45%;
 }
 
 .three {
