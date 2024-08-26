@@ -167,7 +167,88 @@ h1 {
 
 }
 
+
+.four {
+
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.innerbox {
+
+    background-color: #0077b6;
+    width: 60%;
+    height: 45%;
+    border-radius: 10px;
+
+}
+
+.innerboxtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.CTAcontainer {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sbtn {
+
+    background-color: #0077b6;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 10px;
+    margin-top: 8px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    border: 2px solid white;
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+
+
+.CTA {
+
+    color: white;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 20px;
+
+}
+
+.IBT {
+
+    color: #e5e5e5;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
 img {
     height: 200px;
     width: 300px;
+}
+
+.five {
+    background-color: #1F2937;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ftr {
+
+    color: #E5E7EB;
+    font-size: 15px;
+
 }
